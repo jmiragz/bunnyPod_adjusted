@@ -10,7 +10,7 @@ By: Monica G.
 
 Description: Cute bunny theme :3 featuring LanaPixel font by eishiya
 
-All pixel art is by me!!
+All pixel art is by Monica G!!
 
 Code based on: 1ST_GEN_REMIX by me! which was based on SNARTY by Simon Anden and BONES by Chuck Largo!
 
