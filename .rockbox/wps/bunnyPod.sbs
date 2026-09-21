@@ -75,15 +75,15 @@
 
 # Hold / Device
 %Vl(mainMenu,115,4,100,30,3)
-%?mh<%acHOLD|>
+%?mh<%acHOLD|%ac%bl%%>
 
 # Battery Icon
 %Vl(mainMenu,260,6,54,23,2)
 %?bp<%xd(battery,7)|%?bl<%xd(battery,6)|%xd(battery,5)|%xd(battery,4)|%xd(battery,3)|%xd(battery,2)|%xd(battery,1)>>%?bp<%?bc<%?bl<%xd(battery,12)|%xd(battery,11)|%xd(battery,10)|%xd(battery,9)|%xd(battery,8)|%xd(battery,7)>|%?bl<%xd(battery,6)|%xd(battery,5)|%xd(battery,4)|%xd(battery,3)|%xd(battery,2)|%xd(battery,1)>>>
 
 # Time
-%Vl(mainMenu,230,50,85,25,3)
-%ac%?cf<%cH|%cl>:%cM%?cf<| %cP>
+%Vl(mainMenu,215,50,100,25,3)
+%ac%cl:%cM %cP
 
 # Date
 %Vl(mainMenu,230,80,85,15,2)
@@ -128,7 +128,7 @@
 
 # Time / Battery (numerical)
 %Vl(usbScreen,10,5,240,25,3)
-%al%?cf<%cH|%cl>:%cM%?cf<| %cP>
+%al%cl:%cM %cP
 
 # Battery Icon
 %Vl(usbScreen,260,7,54,23,2)
@@ -146,6 +146,6 @@
 %Vl(usbScreen,60,80,200,18,2)
 %ac%t(1)! EJECT BEFORE DISCONNECTING !;%t(.1)%ac
 
-# Battery (numerical
+# Battery (numerical)
 %Vl(usbScreen,215,150,50,18,2)
 %al%bl%%

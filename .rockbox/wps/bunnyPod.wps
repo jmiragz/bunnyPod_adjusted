@@ -95,8 +95,8 @@
 %?ps<%xd(shuffle,1)|%xd(shuffle,2)>
 
 # Time
-%Vl(mainDisplay,160,4,90,25,3)
-%ar%?cf<%cH|%cl>:%cM%?cf<| %cP>
+%Vl(mainDisplay,160,4,98,25,3)
+%ar%cl:%cM %cP
 
 # Line
 %Vl(mainDisplay,80,182,180,1,-)
